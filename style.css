@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #4d4d4d;
+    background-color: #faf5ff; /* Soft lilac background */
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: #e8dff5; /* Lilac shade */
+    border-bottom: 3px solid #d1c0e8;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #4a3a74; /* Deep lilac text */
+}
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #5c4887;
+}
+header .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #7b5eb3; /* Soft purple button */
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+header .btn:hover {
+    background: #6a4ea3; /* Slightly darker purple */
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+}
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    color: #6a4ea3; /* Matching purple */
+    border-bottom: 2px solid #e8dff5;
+    padding-bottom: 0.5rem;
+}
+.project {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f7f2fb; /* Very light lilac */
+    border: 1px solid #d9cfee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: #f7f2fb;
+    padding: 1.5rem;
+    border: 1px solid #d9cfee;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form label {
+    font-weight: bold;
+    color: #5c4887;
+}
+form input, form textarea, form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #d1c0e8;
+    border-radius: 5px;
+}
+form input:focus, form textarea:focus {
+    border-color: #7b5eb3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(123, 94, 179, 0.5);
+}
+form button {
+    background: #7b5eb3;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+form button:hover {
+    background: #6a4ea3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #4a3a74; /* Deep purple */
+    color: #fff;
+}
